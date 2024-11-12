@@ -1,24 +1,119 @@
+/* Import Google Fonts for a professional look */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f9;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header styling */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Main content styling */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* Section styling */
+section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Section headings */
+section h2 {
+  font-size: 1.8rem;
+  color: #ff6347;
+  border-bottom: 2px solid #ff6347;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Links styling */
+a {
+  color: #007acc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ff6347;
+  text-decoration: underline;
+}
+
+/* List styling in Projects */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+li:before {
+  content: '•';
+  color: #ff6347;
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+/* Button styling */
+button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e55337;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 2rem;
   }
 
-  header {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
+  section h2 {
+    font-size: 1.5rem;
   }
-
-  main {
-    padding: 2rem;
-  }
-
-  footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-  }
+}
