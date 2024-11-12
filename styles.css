@@ -1,9 +1,9 @@
-/* Import Google Fonts for a professional look */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+/* Import Google Fonts for a vibrant look */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Pacifico&display=swap');
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f0f8ff;
+  background-color: #ffecb3; /* Soft yellow background */
   margin: 0;
   padding: 0;
   color: #333;
@@ -11,14 +11,15 @@ body {
 
 /* Header styling */
 header {
-  background-color: #333;
+  background-color: #ff6f61; /* Bright coral */
   color: #fff;
   padding: 2rem;
   text-align: center;
 }
 
 header h1 {
-  font-size: 2.5rem;
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
   margin: 0;
 }
 
@@ -33,29 +34,30 @@ main {
 section {
   margin-bottom: 2rem;
   padding: 1.5rem;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  border-left: 6px solid #42a5f5; /* Adds a fun accent */
 }
 
 /* Section headings */
 section h2 {
   font-size: 1.8rem;
-  color: #ff6347;
-  border-bottom: 2px solid #ff6347;
+  color: #42a5f5; /* Sky blue */
+  border-bottom: 2px dashed #ff6f61;
   padding-bottom: 0.5rem;
   margin-bottom: 1rem;
 }
 
 /* Links styling */
 a {
-  color: #007acc;
+  color: #ff6f61; /* Coral */
   text-decoration: none;
   font-weight: bold;
 }
 
 a:hover {
-  color: #ff6347;
+  color: #42a5f5; /* Sky blue */
   text-decoration: underline;
 }
 
@@ -72,15 +74,14 @@ li {
 }
 
 li:before {
-  content: '•';
-  color: #ff6347;
+  content: '🎉'; /* Adds an emoji bullet */
   margin-right: 0.5rem;
   font-size: 1.2rem;
 }
 
 /* Footer styling */
 footer {
-  background-color: #333;
+  background-color: #42a5f5; /* Sky blue */
   color: #fff;
   text-align: center;
   padding: 1rem;
@@ -92,11 +93,11 @@ footer {
 
 /* Button styling */
 button {
-  background-color: #ff6347;
+  background-color: #ff6f61; /* Coral */
   color: #fff;
   border: none;
-  border-radius: 5px;
-  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  padding: 0.6rem 1.2rem;
   cursor: pointer;
   font-size: 1rem;
   font-weight: bold;
@@ -104,13 +105,13 @@ button {
 }
 
 button:hover {
-  background-color: #e55337;
+  background-color: #ff8a65; /* Light coral */
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
   header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 
   section h2 {
